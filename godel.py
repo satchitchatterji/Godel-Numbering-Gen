@@ -48,6 +48,7 @@ def create_godel(string):
 	return total
 
 def find_expression(g_no):
+	# reverses create_godel; finds expression from g_no input
 	for prime in next_prime():
 		if(g_no == 1):
 			break
